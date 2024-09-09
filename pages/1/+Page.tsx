@@ -29,13 +29,15 @@ function Banner() {
     <div style={{
       display: 'flex', alignItems: 'center', justifyContent: 'center',
       marginBottom: 0,
+      scale: '0.8',
+      marginLeft: -80,
+      marginRight: -80,
       fontSize: 16 // reset
     }}>
       <div
         style={{
           display: 'flex',
           height: 320,
-          scale: '0.8'
         }}
       >
         <img src={vikeIcon} style={{marginRight: 50, marginTop: 0, height: '100%'}} />
