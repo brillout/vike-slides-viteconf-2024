@@ -1,10 +1,13 @@
-export { Page };
+export {Page};
 
 import vikeIcon from '../../assets/vike-vertical.svg'
 
 function Page() {
   return (
-    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100vh', fontSize: 16 }}>
+    <div style={{
+      display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100vh',
+      fontSize: 16 // reset
+    }}>
       <div
         style={{
           display: 'flex',
@@ -14,8 +17,8 @@ function Page() {
           */
         }}
       >
-        <img src={vikeIcon} style={{ marginRight: 50, marginTop: 0, height: '100%' }} />
-        <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-evenly', height: '100%' }}>
+        <img src={vikeIcon} style={{marginRight: 50, marginTop: 0, height: '100%'}} />
+        <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-evenly', height: '100%'}}>
           <div>
             <span
               style={{
@@ -29,7 +32,7 @@ function Page() {
               Vike
             </span>
           </div>
-          <div style={{ fontSize: '4.2em', paddingLeft: 4, paddingTop: 0, paddingBottom: 0, lineHeight: '1.2em' }}>
+          <div style={{fontSize: '4.2em', paddingLeft: 4, paddingTop: 0, paddingBottom: 0, lineHeight: '1.2em'}}>
             Next Generation
             <br />
             Frontend Framework
