@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  background-color: #334;
   font-size: 1.6em;
 }
 
@@ -10,30 +9,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 1200px;
-  margin: auto;
 }
+/*
 #slide-content {
   width: 800px;
   margin: auto;
 }
+*/
 
 h1 {
   font-size: 4rem;
 }
-
-/*
-* {
-  box-sizing: border-box;
-}
-a {
-  text-decoration: none;
-}
-
-.navitem {
-  padding: 3px 10px;
-}
-.navitem.is-active {
-  background-color: #eee;
-}
-*/
