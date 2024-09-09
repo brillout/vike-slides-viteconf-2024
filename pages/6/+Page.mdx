@@ -1,26 +1,12 @@
-export const style = {
-  fontSize: '1.1rem',
-}
+# Open Source Business Model
 
-```js
-// /renderer/_default.page.server.jsx
-// Environment: Node.js
+- 100% open source (MIT license)
+- 100% gratis for engineers
+  - Only companies pay
+- Companies who cannot afford it, can apply for a free license key
+- Companies pay as much as they want
+  - Experimental
+- 3 months free trial
+- In production, show a pesky toaster "Get your free trial license at ..."
 
-import ReactDOMServer from "react-dom/server"
-import React from "react"
-import { escapeInject, dangerouslySkipEscape } from "vite-plugin-ssr"
-
-export async function render({ Page }) {
-  const pageHtml = ReactDOMServer.renderToString(<Page />)
-  const title = "Vite SSR"
-  return escapeInject`<!DOCTYPE html>
-    <html>
-      <head>
-        <title>${title}</title>
-      </head>
-      <body>
-        <div id="page-view">${dangerouslySkipEscape(pageHtml)}</div>
-      </body>
-    </html>`
-}
-```
+Vike stays 100% MIT licensed and 100% accessible. Win for everyone.

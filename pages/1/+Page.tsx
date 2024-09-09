@@ -3,18 +3,39 @@ export {Page};
 import vikeIcon from '../../assets/vike-vertical.svg'
 
 function Page() {
+  return <>
+    <Banner />
+    <Hr />
+    <TagLine2 />
+  </>
+}
+
+function TagLine2() {
+  return <>
+    <p>Like Next.js / Nuxt but:</p>
+    <ul>
+      <li>
+        Flexible
+      </li>
+      <li>
+        Ejectable extensions
+      </li>
+    </ul>
+  </>
+}
+
+function Banner() {
   return (
     <div style={{
-      display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100vh',
+      display: 'flex', alignItems: 'center', justifyContent: 'center',
+      marginBottom: 0,
       fontSize: 16 // reset
     }}>
       <div
         style={{
           display: 'flex',
           height: 320,
-          /*
-          scale: '1.2'
-          */
+          scale: '0.8'
         }}
       >
         <img src={vikeIcon} style={{marginRight: 50, marginTop: 0, height: '100%'}} />
@@ -41,4 +62,15 @@ function Page() {
       </div>
     </div>
   )
+}
+
+function Hr() {
+  return <>
+    <hr style={{
+      opacity: 0.3,
+      /*
+    width: 600
+    */
+    }} />
+  </>
 }
