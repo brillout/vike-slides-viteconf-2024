@@ -2,9 +2,11 @@ body {
   margin: 0;
   font-size: 1.6em;
 }
+h1 {
+  font-size: 4rem;
+}
 
 #slide-wrapper {
-  background-color: white;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -17,6 +19,3 @@ body {
 }
 */
 
-h1 {
-  font-size: 4rem;
-}
