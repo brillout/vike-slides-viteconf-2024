@@ -1,5 +1,4 @@
-import React from "react";
-import { Logo } from "../renderer/components/Logo";
+import { Logo } from "../../components/Logo";
 
 export { Page };
 
