@@ -1,7 +1,4 @@
-import React from "react";
-export { Center }
-
-function Center({ style, ...props }: any) {
+export function Center({ style, ...props }: any) {
   return (
     <div
       style={{

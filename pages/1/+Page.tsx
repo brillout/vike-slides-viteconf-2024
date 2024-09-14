@@ -1,6 +1,7 @@
 export {Page};
 
 import vikeIcon from '../../assets/vike-vertical.svg'
+import {Hr} from '../../components/Hr';
 
 function Page() {
   return <>
@@ -64,15 +65,4 @@ function Banner() {
       </div>
     </div>
   )
-}
-
-function Hr() {
-  return <>
-    <hr style={{
-      opacity: 0.3,
-      /*
-    width: 600
-    */
-    }} />
-  </>
 }
