@@ -1,9 +1,10 @@
 import {navigate} from "vike/client/router"
+import {getSlideNumber} from "../utils/getSlideNumber"
 
 window.onkeydown = ({code, shiftKey}) => {
   const {pathname} = window.location
 
-  const slideNumber = parseInt(pathname.slice(1), 10)
+  const slideNumber = getSlideNumber(pathname)
   let slideNumberNext = slideNumber
 
   if (['ArrowLeft'].includes(code)) {
