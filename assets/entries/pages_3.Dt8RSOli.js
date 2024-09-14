@@ -1,4 +1,4 @@
-import{j as e,i as o,o as r,L as l,a as n,b as d,c as s}from"../chunks/chunk-BhA06oeG.js";/* empty css                      */import"../chunks/chunk-QtDcjt-F.js";/* empty css                      *//* empty css                      */import"../chunks/chunk-CjZAYeeA.js";function i(a){const t={br:"br",code:"code",h1:"h1",li:"li",p:"p",ul:"ul",...a.components};return e.jsxs(e.Fragment,{children:[e.jsx(t.h1,{children:"Extensions"}),`
+import{j as e,i as o,o as r,L as l,a as n,b as d,c as s}from"../chunks/chunk-Bema-Tdq.js";/* empty css                      */import"../chunks/chunk-QtDcjt-F.js";/* empty css                      *//* empty css                      */import"../chunks/chunk-CjZAYeeA.js";function i(a){const t={br:"br",code:"code",h1:"h1",li:"li",p:"p",ul:"ul",...a.components};return e.jsxs(e.Fragment,{children:[e.jsx(t.h1,{children:"Extensions"}),`
 `,e.jsx(t.p,{children:"For example, UI framework (React/Vue/Solid/...) integration:"}),`
 `,e.jsxs(t.ul,{children:[`
 `,e.jsx(t.li,{children:"vike-react <=> Next.js/Remix"}),`
