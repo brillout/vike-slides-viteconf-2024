@@ -1,4 +1,4 @@
-import{j as e,i as o,o as n,L as r,a as l,b as s,c as d}from"../chunks/chunk-DLmVkBjv.js";/* empty css                      */import"../chunks/chunk-QtDcjt-F.js";/* empty css                      *//* empty css                      */import"../chunks/chunk-xynrxboT.js";function i(a){const t={h1:"h1",li:"li",p:"p",ul:"ul",...a.components};return e.jsxs(e.Fragment,{children:[e.jsx(t.h1,{children:"Open Source Business Model"}),`
+import{j as e,i as o,o as n,L as r,a as l,b as s,c as d}from"../chunks/chunk-BhA06oeG.js";/* empty css                      */import"../chunks/chunk-QtDcjt-F.js";/* empty css                      *//* empty css                      */import"../chunks/chunk-CjZAYeeA.js";function i(a){const t={h1:"h1",li:"li",p:"p",ul:"ul",...a.components};return e.jsxs(e.Fragment,{children:[e.jsx(t.h1,{children:"Open Source Business Model"}),`
 `,e.jsxs(t.ul,{children:[`
 `,e.jsx(t.li,{children:"100% open source (MIT license)"}),`
 `,e.jsxs(t.li,{children:["100% gratis for engineers",`

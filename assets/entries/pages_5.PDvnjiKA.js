@@ -1,4 +1,4 @@
-import{j as e,i as o,o as l,L as n,a as r,b as s,c as d}from"../chunks/chunk-DLmVkBjv.js";/* empty css                      */import"../chunks/chunk-QtDcjt-F.js";/* empty css                      *//* empty css                      */import"../chunks/chunk-xynrxboT.js";function i(a){const t={code:"code",h1:"h1",li:"li",ul:"ul",...a.components};return e.jsxs(e.Fragment,{children:[e.jsx(t.h1,{children:"V1 Release"}),`
+import{j as e,i as o,o as l,L as n,a as r,b as s,c as d}from"../chunks/chunk-BhA06oeG.js";/* empty css                      */import"../chunks/chunk-QtDcjt-F.js";/* empty css                      *//* empty css                      */import"../chunks/chunk-CjZAYeeA.js";function i(a){const t={code:"code",h1:"h1",li:"li",ul:"ul",...a.components};return e.jsxs(e.Fragment,{children:[e.jsx(t.h1,{children:"V1 Release"}),`
 `,e.jsxs(t.ul,{children:[`
 `,e.jsxs(t.li,{children:[e.jsx(t.code,{children:"0.4.x"})," already stable, but missing essentials"]}),`
 `,e.jsxs(t.li,{children:[e.jsx(t.code,{children:"1.0.0"})," includes all essentials:",`

@@ -1,1 +1,0 @@
-import{n as s}from"../chunks/chunk-xynrxboT.js";import"../chunks/chunk-QtDcjt-F.js";window.onkeydown=({code:i,shiftKey:n})=>{const{pathname:r}=window.location,o=parseInt(r.slice(1),10);let e=o;if(["ArrowLeft"].includes(i))n?e++:e--;else if(["ArrowRight","Space"].includes(i))n?e--:e++;else return;e!==o&&e!==0&&s(`/${e}`)};

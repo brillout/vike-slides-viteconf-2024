@@ -1,4 +1,4 @@
-import{j as e,i,o as r,L as l,a as n,b as d,c as s}from"../chunks/chunk-DLmVkBjv.js";/* empty css                      */import"../chunks/chunk-QtDcjt-F.js";/* empty css                      *//* empty css                      */import"../chunks/chunk-xynrxboT.js";function o(a){const t={h1:"h1",li:"li",p:"p",ul:"ul",...a.components};return e.jsxs(e.Fragment,{children:[e.jsx(t.h1,{children:"Vike"}),`
+import{j as e,i,o as r,L as l,a as n,b as d,c as s}from"../chunks/chunk-BhA06oeG.js";/* empty css                      */import"../chunks/chunk-QtDcjt-F.js";/* empty css                      *//* empty css                      */import"../chunks/chunk-CjZAYeeA.js";function o(a){const t={h1:"h1",li:"li",p:"p",ul:"ul",...a.components};return e.jsxs(e.Fragment,{children:[e.jsx(t.h1,{children:"Vike"}),`
 `,e.jsxs(t.ul,{children:[`
 `,e.jsx(t.li,{children:"Core => flexible & robust foundation"}),`
 `,e.jsx(t.li,{children:"Extensions => quick start, ejectable"}),`
